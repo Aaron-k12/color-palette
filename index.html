@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <title>Color Scheme</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-section">
+                <input title="color" type="color" value="#ff0000" id="seed-color">
+                <label class="color-name"  for="color-name">
+                    <select title="color-scheme" id="color-scheme">
+                        <option>monochrome</option>
+                        <option>monochrome-dark</option>
+                        <option>monochrome-light</option>
+                        <option>analogic</option>
+                        <option>complement</option>
+                        <option>analogic-complement</option>
+                        <option>triad</option>
+                        <option>quad</option>
+                    </select>
+                </label>
+                <button type="button" id="search-color">Get Color Scheme</button>
+            </div>      
+        </header>
+
+        <!-- section for color palette  -->
+        <section class="color-palette"  
+                 id="second-section">     
+        </section>
+        
+        <!-- section for hex codes -->
+        <footer id="hex-codes"></footer>
+       
+        <script src="index.js"></script>
+    </body>
+
+</html>

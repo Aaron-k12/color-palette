@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+/* Layout  */
+
+.header-section,
+footer {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.header-section,
+.header-section button {
+    box-sizing: border-box;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5625em;
+    height: 90px;
+
+}
+
+.header-section select {
+    width: 312px;
+    border-radius: 6px;
+}
+
+option {
+    color: #111827;
+}
+
+select,
+.header-section button {
+    border: 1px solid #D1D5DB;    
+}
+
+.header-section button {
+    padding: 0.8125em;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #374151;
+    font-size:  0.75rem;
+    cursor: pointer;
+}
+
+.color-field {
+    width: 110px;
+    height: 504px;
+}
+
+.color-palette,
+footer {
+    display: flex;  
+}
+
+
+section,
+footer {
+    justify-content: center;
+}
+
+footer {
+    gap: 3.5em;
+    height:  46px;
+}
