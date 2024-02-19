@@ -1,3 +1,4 @@
-## Color Palette
-<p>This app features a color palette of 5 different colors.</p>
-<p>The app uses the concept of Rest API to retrieve different shades of a color</p>
+## Color Scheme Generator
+<p>This app generarates 5 different shades of a color.</p>
+<p>The app uses the <a href="https://www.thecolorapi.com/">the color API</a> to retrieve different shades of a color</p>
+<p>Built this project to understand the concept of Rest API</p>
